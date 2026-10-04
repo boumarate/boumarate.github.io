@@ -6,25 +6,25 @@
     <title>FélinConfort - Le Bien-être & Divertissement de Votre Chat</title>
     <meta name="description" content="Fontaines filtrantes, arbres compacts et jouets interactifs pour chats heureux.">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
     </style>
 </head>
-<body class="bg-slate-50 text-gray-800 antialiased">
+<body class="bg-slate-50 text-gray-800 antialiased flex flex-col min-h-screen">
 
     <!-- Bandeau Réseau Flotte 3 Niches -->
-    <div class="bg-gray-900 text-gray-300 text-xs py-2 px-4 border-b border-gray-800">
+    <div class="bg-gray-900 text-gray-300 text-xs py-2.5 px-4 border-b border-gray-800">
         <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
             <div class="flex items-center gap-2">
                 <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>Flotte E-Commerce Active : 3 Rayons Spécialisés</span>
+                <span>Flotte E-Commerce Active : 3 Rayons Spécialisés Clé en Main</span>
             </div>
             <div class="flex items-center gap-4 font-medium">
                 <a href="../chiens/index.html" class="hover:text-amber-400 ">🐕 Rayon Chiens</a>
-                <span class="text-gray-600">|</span>
-                <a href="../chats/index.html" class="hover:text-indigo-400 text-indigo-400 font-bold underline">🐱 Rayon Chats</a>
-                <span class="text-gray-600">|</span>
+                <span class="text-gray-700">|</span>
+                <a href="../chats/index.html" class="hover:text-indigo-400 text-indigo-400 font-black underline">🐱 Rayon Chats</a>
+                <span class="text-gray-700">|</span>
                 <a href="../maison/index.html" class="hover:text-emerald-400 ">🏠 Rayon Maison</a>
             </div>
         </div>
@@ -32,844 +32,1209 @@
 
     <!-- En-tête de la Boutique -->
     <header class="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-40">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex justify-between items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-black text-xl shadow-md">
+                <div class="w-11 h-11 rounded-2xl bg-indigo-600 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-indigo-500/20">
                     🐱
                 </div>
                 <div>
-                    <h1 class="text-xl font-extrabold text-gray-900 leading-none">FélinConfort</h1>
-                    <p class="text-xs text-gray-500 mt-1">Sélection Indépendante Certifiée</p>
+                    <h1 class="text-xl font-black text-gray-900 leading-none">FélinConfort</h1>
+                    <p class="text-xs text-gray-500 mt-1 font-medium">Sélection Indépendante Partenaire Amazon</p>
                 </div>
             </div>
-            <div class="hidden md:flex items-center gap-6 text-sm font-semibold text-gray-600">
-                <span class="flex items-center gap-1"><span class="text-emerald-500">✓</span> Produits Testés</span>
-                <span class="flex items-center gap-1"><span class="text-emerald-500">✓</span> Avis Clients Vérifiés</span>
-                <span class="flex items-center gap-1"><span class="text-emerald-500">✓</span> Garantie Amazon</span>
+            <div class="hidden md:flex items-center gap-6 text-xs font-bold text-gray-600">
+                <span class="flex items-center gap-1.5"><span class="text-emerald-500 text-sm">✓</span> Produits Testés</span>
+                <span class="flex items-center gap-1.5"><span class="text-emerald-500 text-sm">✓</span> Avis Clients 4.5+</span>
+                <span class="flex items-center gap-1.5"><span class="text-emerald-500 text-sm">✓</span> Garantie Amazon 30j</span>
             </div>
         </div>
     </header>
 
     <!-- Hero Banner -->
-    <section class="bg-gradient-to-b from-indigo-50 to-slate-50 py-12 md:py-16 border-b border-gray-100">
+    <section class="bg-gradient-to-b from-indigo-50 via-indigo-50/60 to-slate-50 pt-12 pb-16 border-b border-gray-100">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <span class="inline-block px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gray-800 shadow-sm border border-gray-200 mb-4">
-                🔥 Bestsellers & Recommandations 2026
+            <span class="inline-block px-4 py-1.5 rounded-full text-xs font-black bg-white text-gray-800 shadow-sm border border-gray-200 mb-4">
+                🔥 Bestsellers & Recommandations Officielles 2026
             </span>
-            <h2 class="text-3xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
+            <h2 class="text-3xl sm:text-5xl font-black text-gray-900 tracking-tight mb-4 leading-tight">
                 FélinConfort - Le Bien-être & Divertissement de Votre Chat
             </h2>
-            <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
                 Fontaines filtrantes, arbres compacts et jouets interactifs pour chats heureux.
             </p>
         </div>
     </section>
 
-    <!-- Grille des Produits -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="flex justify-between items-center mb-8">
-            <div>
-                <h3 class="text-xl font-bold text-gray-900">Les Incontournables (15 pépites sélectionnées)</h3>
-                <p class="text-xs text-gray-500 mt-0.5">Mise à jour automatique par nos agents algorithmiques</p>
+    <!-- Feature 2 : Grand Bandeau de Réassurance 4 Piliers Amazon -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-12 relative z-20">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 bg-white rounded-3xl p-6 sm:p-7 shadow-xl shadow-gray-200/50 border border-gray-100">
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl font-black flex-shrink-0">⚡</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Livraison Prime 24h/48h</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">Expédié par Amazon Canada</p>
+                </div>
             </div>
-            <span class="text-xs bg-white border border-gray-200 px-3 py-1.5 rounded-lg text-gray-600 font-medium shadow-sm">
-                Trié par : Taux de satisfaction ⭐
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center text-2xl font-black flex-shrink-0">🛡️</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Satisfait ou Remboursé</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">30 jours de retours gratuits</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-600 flex items-center justify-center text-2xl font-black flex-shrink-0">🔒</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Paiement 100% Sécurisé</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">Chiffrement bancaire officiel</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-blue-500/10 text-blue-600 flex items-center justify-center text-2xl font-black flex-shrink-0">⭐</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Sélection Certifiée 4.5+</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">Testée par des milliers d acheteurs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grille des Produits -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 flex-grow">
+        <div class="flex flex-wrap justify-between items-center gap-4 mb-8">
+            <div>
+                <h3 class="text-2xl font-black text-gray-900">Les Incontournables (15 pépites sélectionnées)</h3>
+                <p class="text-xs text-gray-500 mt-0.5">Mis à jour automatiquement avec stocks et avis en direct</p>
+            </div>
+            <span class="text-xs bg-white border border-gray-200 px-3.5 py-1.5 rounded-xl text-gray-700 font-bold shadow-sm flex items-center gap-1.5">
+                <span>Trié par :</span>
+                <span class="text-amber-600">Satisfaction Client 4.8★</span>
             </span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
         <!-- Produit cat-01 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/710zc+VdQXL._AC_SL1500_.jpg" alt="Fontaine à Eau Silencieuse en Acier Inoxydable avec Filtre Quadruple" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Recommandé Vétérinaire
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Hydratation et Santé
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Fontaine à Eau Silencieuse en Acier Inoxydable avec Filtre Quadruple
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(11,840 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(11,840 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Incite naturellement votre chat à boire davantage pour prévenir les calculs urinaires et problèmes rénaux fréquents.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Incite naturellement votre chat à boire davantage pour prévenir les calculs urinaires et problèmes rénaux fréquents.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Inox de qualité médicale empêchant le développement bactérien</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Pompe ultra-silencieuse (< 20 dB) insensible pour le sommeil</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Filtre charbon actif + résine échangeuse d'ions pour protéger les reins</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Inox de qualité médicale empêchant le développement bactérien</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Pompe ultra-silencieuse (< 20 dB) insensible pour le sommeil</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Filtre charbon actif + résine échangeuse d'ions pour protéger les reins</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">39.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0G3ZZLLQH?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-02 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71N+3HJkHFL._AC_SL1200_.jpg" alt="Arbre à Chat Design Compact avec Poteaux en Sisal Naturel" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Spécial Appartement
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Espace et Jeux
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Arbre à Chat Design Compact avec Poteaux en Sisal Naturel
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(6,420 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(6,420 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Permet à votre félin d'escalader, d'observer son territoire et d'assouvir son besoin de griffage sans abîmer vos canapés.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Permet à votre félin d'escalader, d'observer son territoire et d'assouvir son besoin de griffage sans abîmer vos canapés.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Encombrement réduit au sol idéal pour les salons modernes</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Troncs épais en corde de sisal naturel pour faire les griffes</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Niche douillette et plateforme d'observation surélevée</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Encombrement réduit au sol idéal pour les salons modernes</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Troncs épais en corde de sisal naturel pour faire les griffes</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Niche douillette et plateforme d'observation surélevée</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">54.90 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0CRDJSKTK?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-03 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/81V9uP8lNjL._AC_SL1500_.jpg" alt="Brosse Vapeur 3-en-1 Démêlante Rechargeable pour Poils Courts & Longs" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Innovation Tendance 2026
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Hygiène et Pelage
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Brosse Vapeur 3-en-1 Démêlante Rechargeable pour Poils Courts & Longs
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.9/5</span>
-                    <span class="text-xs text-gray-400">(8,920 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.9/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(8,920 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    La solution magique pour les chats qui détestent l'eau. Fini les touffes de poils qui s'envolent pendant le brossage.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">La solution magique pour les chats qui détestent l'eau. Fini les touffes de poils qui s'envolent pendant le brossage.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Micro-brume tiède qui détend le pelage et capture 99% des poils volants</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Picots en silicone souple offrant un massage apaisant très apprécié</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Élimine la saleté et désodorise en douceur sans tremper le chat</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Micro-brume tiède qui détend le pelage et capture 99% des poils volants</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Picots en silicone souple offrant un massage apaisant très apprécié</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Élimine la saleté et désodorise en douceur sans tremper le chat</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">26.50 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0H2M5XGM6?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-04 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61tdiVwyIxL._AC_SL1500_.jpg" alt="Balle Interactive Intelligente Automatique à Rotation 360° et LED" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Anti-Ennui Félin
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Éveil et Amusement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Balle Interactive Intelligente Automatique à Rotation 360° et LED
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.6/5</span>
-                    <span class="text-xs text-gray-400">(4,750 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.6/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(4,750 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Maintient l'instinct de chasseur de votre chat en éveil et l'aide à conserver son poids de forme même quand vous travaillez.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Maintient l'instinct de chasseur de votre chat en éveil et l'aide à conserver son poids de forme même quand vous travaillez.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Changement de direction automatique intelligent dès qu'elle touche un mur</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Lumière douce LED stimulante sans danger pour la rétine</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Rechargeable par câble USB avec mode veille intelligent</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Changement de direction automatique intelligent dès qu'elle touche un mur</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Lumière douce LED stimulante sans danger pour la rétine</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Rechargeable par câble USB avec mode veille intelligent</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">21.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0DN61XPQG?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-05 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/81SiUFwAP-L._AC_SL1500_.jpg" alt="Tapis de Litière Double Couche Alvéolé Anti-Dispersion Imperméable" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Zéro Grain au Sol
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Propreté Maison
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Tapis de Litière Double Couche Alvéolé Anti-Dispersion Imperméable
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(13,600 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(13,600 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Terminez définitivement la corvée de balayage quotidien des grains de litière sous les pieds.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Terminez définitivement la corvée de balayage quotidien des grains de litière sous les pieds.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Structure en nid d'abeille qui retient et stocke les grains de litière</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Fond imperméable et antidérapant protégeant le parquet de l'humidité</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Se vide en 5 secondes directement dans le bac à litière</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Structure en nid d'abeille qui retient et stocke les grains de litière</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Fond imperméable et antidérapant protégeant le parquet de l'humidité</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Se vide en 5 secondes directement dans le bac à litière</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">24.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B07FF63XBD?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-06 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61rdeFDbKoL._AC_SL1500_.jpg" alt="Hamac de Fenêtre Panoramique à Ventouses Puissantes Sécurité 20kg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Vue Panoramique
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Espace et Jeux
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Hamac de Fenêtre Panoramique à Ventouses Puissantes Sécurité 20kg
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(7,800 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(7,800 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Offrez à votre chat le poste d'observation rêvé pour regarder les oiseaux et profiter des rayons du soleil.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Offrez à votre chat le poste d'observation rêvé pour regarder les oiseaux et profiter des rayons du soleil.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> 4 ventouses industrielles ultra-robustes supportant jusqu'à 20 kg</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Tapis respirant amovible et lavable en machine</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Gain de place total sans emprise au sol</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> 4 ventouses industrielles ultra-robustes supportant jusqu'à 20 kg</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Tapis respirant amovible et lavable en machine</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Gain de place total sans emprise au sol</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">29.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0B9R7PYZC?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-07 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71HANmtOEpL._AC_SL1500_.jpg" alt="Jouet Laser Automatique avec Minuteur et Trajectoires Aléatoires" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Chasseur Infatigable
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Éveil et Amusement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Jouet Laser Automatique avec Minuteur et Trajectoires Aléatoires
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(9,400 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(9,400 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Le divertissement ultime pour occuper votre chat et canaliser ses coups de folie en soirée.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Le divertissement ultime pour occuper votre chat et canaliser ses coups de folie en soirée.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Point laser rotatif à vitesses réglables et trajectoires imprévisibles</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Extinction automatique après 15 minutes pour éviter l'épuisement</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Fonctionne sur piles ou branché sur prise secteur</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Point laser rotatif à vitesses réglables et trajectoires imprévisibles</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Extinction automatique après 15 minutes pour éviter l'épuisement</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Fonctionne sur piles ou branché sur prise secteur</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">27.50 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0DWWYZ3ML?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-08 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/711yPmOt4SL._AC_SL1500_.jpg" alt="Griffoir Design Canapé en Carton Recyclé Haute Densité Réversible" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Sauve-Canapé
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Espace et Jeux
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Griffoir Design Canapé en Carton Recyclé Haute Densité Réversible
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(6,100 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(6,100 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Détourne immédiatement l'attention de votre chat de vos meubles et rideaux coûteux.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Détourne immédiatement l'attention de votre chat de vos meubles et rideaux coûteux.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Carton ondulé compressé ultra-dense qui ne s'effrite pas au sol</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Design incurvé élégant servant à la fois de griffoir et de lit de sieste</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Réversible pour doubler sa durée de vie</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Carton ondulé compressé ultra-dense qui ne s'effrite pas au sol</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Design incurvé élégant servant à la fois de griffoir et de lit de sieste</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Réversible pour doubler sa durée de vie</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">22.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0DSBD6QVN?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-09 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71yjATfWp-L._AC_SL1500_.jpg" alt="Tunnel de Jeu Extensible 3 Voies avec Pompon Suspendu & Pliable" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Parties de Cache-Cache
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Éveil et Amusement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Tunnel de Jeu Extensible 3 Voies avec Pompon Suspendu & Pliable
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(5,300 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(5,300 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Le terrain de jeu idéal pour les courses-poursuites et les embuscades joyeuses.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Le terrain de jeu idéal pour les courses-poursuites et les embuscades joyeuses.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Tissu polyester indéchirable avec papier froissé intérieur stimulant</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Ouverture centrale de guet avec balle grelot suspendue</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Se replie à plat en 3 secondes pour un rangement facile</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Tissu polyester indéchirable avec papier froissé intérieur stimulant</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Ouverture centrale de guet avec balle grelot suspendue</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Se replie à plat en 3 secondes pour un rangement facile</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">18.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0CBRCRTYP?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-10 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61ja9FXUlIL._AC_SL1350_.jpg" alt="Gamelles Surélevées Ergonomiques Inclinées à 15° en Céramique" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Confort Cervical
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Hydratation et Santé
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Gamelles Surélevées Ergonomiques Inclinées à 15° en Céramique
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.9/5</span>
-                    <span class="text-xs text-gray-400">(8,200 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.9/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(8,200 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Améliore la digestion et le confort articulaire des chats adultes et seniors.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Améliore la digestion et le confort articulaire des chats adultes et seniors.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Inclinaison de 15° soulageant les vertèbres cervicales pendant les repas</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Céramique lourde et hygiénique prévenant l'acné féline du menton</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Support en bambou naturel élégant et antidérapant</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Inclinaison de 15° soulageant les vertèbres cervicales pendant les repas</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Céramique lourde et hygiénique prévenant l'acné féline du menton</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Support en bambou naturel élégant et antidérapant</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">23.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0D3GMY4S4?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-11 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/81VP87lUA6L._AC_SL1500_.jpg" alt="Sac à Dos de Transport Panoramique Bulle Spacieux et Aéré" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Voyage Découverte
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Voyage et Sécurité
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Sac à Dos de Transport Panoramique Bulle Spacieux et Aéré
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(10,500 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(10,500 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Emmenez votre chat chez le vétérinaire ou en promenade avec style et sans stress.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Emmenez votre chat chez le vétérinaire ou en promenade avec style et sans stress.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Coque transparente panoramique permettant au chat de contempler l'extérieur</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> 9 grands trous d'aération et côtés en maille pour une ventilation optimale</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Sangles rembourrées et boucle de poitrine pour un portage sans fatigue</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Coque transparente panoramique permettant au chat de contempler l'extérieur</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> 9 grands trous d'aération et côtés en maille pour une ventilation optimale</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Sangles rembourrées et boucle de poitrine pour un portage sans fatigue</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">44.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B07S6ND196?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-12 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/611EvbW2A9L._AC_SL1500_.jpg" alt="Poisson Frétillant Électrique Interactif Rechargeable avec Cataire" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Fou Rire Assuré
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Éveil et Amusement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Poisson Frétillant Électrique Interactif Rechargeable avec Cataire
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.6/5</span>
-                    <span class="text-xs text-gray-400">(14,200 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.6/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(14,200 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Déclenche immédiatement l'intérêt prédateur du chat pour des heures de lutte amusante.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Déclenche immédiatement l'intérêt prédateur du chat pour des heures de lutte amusante.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Capteur de mouvement intégré : bat de la queue dès que le chat le touche</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Housse en peluche réaliste lavable en machine</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Pochette intérieure avec herbe à chat biologique incluse</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Capteur de mouvement intégré : bat de la queue dès que le chat le touche</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Housse en peluche réaliste lavable en machine</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Pochette intérieure avec herbe à chat biologique incluse</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">16.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0CQC9T51N?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-13 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61IMzcKsoML._AC_SL1500_.jpg" alt="Pelle à Litière Extra-Large en Aluminium Anti-Adhésif avec Long Manche" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Nettoyage Express
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Propreté Maison
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Pelle à Litière Extra-Large en Aluminium Anti-Adhésif avec Long Manche
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.9/5</span>
-                    <span class="text-xs text-gray-400">(9,100 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.9/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(9,100 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Nettoyez le bac à litière en deux passes seulement sans effort.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Nettoyez le bac à litière en deux passes seulement sans effort.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Alliage d'aluminium renforcé qui ne plie jamais sous la litière lourde</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Espacement parfait des fentes pour filtrer la litière propre sans gaspillage</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Manche ergonomique en caoutchouc très confortable</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Alliage d'aluminium renforcé qui ne plie jamais sous la litière lourde</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Espacement parfait des fentes pour filtrer la litière propre sans gaspillage</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Manche ergonomique en caoutchouc très confortable</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">14.50 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B09P3PRM5P?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-14 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61PJ160ayVL._AC_SL1500_.jpg" alt="Brosse Murale d'Auto-Toilettage de Coin avec Herbe à Chat" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Câlin Autonome
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Hygiène et Pelage
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Brosse Murale d'Auto-Toilettage de Coin avec Herbe à Chat
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(6,800 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(6,800 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Votre chat se frotte et se brosse tout seul avec délice toute la journée.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Votre chat se frotte et se brosse tout seul avec délice toute la journée.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Se fixe facilement sur tous les coins de murs et pieds de table</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Picots doux qui massent le visage et ramassent les poils morts</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Réservoir à cataire pour attirer le chat naturellement</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Se fixe facilement sur tous les coins de murs et pieds de table</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Picots doux qui massent le visage et ramassent les poils morts</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Réservoir à cataire pour attirer le chat naturellement</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">12.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0H3KNMSBN?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit cat-15 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71M7KUQlC6L._AC_SL1500_.jpg" alt="Lit Nid Douillet Apaisant Forme Donut Ultra-Doux en Fausse Fourrure" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-indigo-100 text-indigo-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-indigo-100 text-indigo-800 shadow-sm tracking-wide">
                     Cocon de Douceur
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Sommeil et Confort
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-indigo-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Lit Nid Douillet Apaisant Forme Donut Ultra-Doux en Fausse Fourrure
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(12,700 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(12,700 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Le couchage préféré des chats anxieux ou frileux pour des siestes profondes et réparatrices.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Le couchage préféré des chats anxieux ou frileux pour des siestes profondes et réparatrices.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Rebords ronds rassurants rappelant le ventre de la mère</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Fourrure synthétique à poils longs thermo-régulatrice</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Fond antidérapant résistant à l'eau et à la poussière</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Rebords ronds rassurants rappelant le ventre de la mère</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Fourrure synthétique à poils longs thermo-régulatrice</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Fond antidérapant résistant à l'eau et à la poussière</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">31.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0H98G4JXC?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-indigo-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-indigo-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -877,8 +1242,111 @@
         </div>
     </main>
 
+    <!-- Feature 4 : Section Comparatif "Produits Ordinaires vs Notre Sélection" -->
+    <section class="bg-gradient-to-b from-white to-slate-100/70 border-t border-b border-gray-200/80 py-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-black px-3.5 py-1.5 rounded-full bg-indigo-500/10 text-indigo-600 border border-indigo-500/20 uppercase tracking-wider">
+                    Pourquoi faire confiance à notre sélection ?
+                </span>
+                <h3 class="text-3xl font-black text-gray-900 mt-4 tracking-tight">
+                    La Différence entre un Produit Ordinaire et un Bestseller Certifié
+                </h3>
+                <p class="text-sm text-gray-600 mt-2">
+                    Nous éliminons les gadgets fragiles pour ne retenir que ce qui fonctionne durablement.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Colonne Mauvaise -->
+                <div class="bg-rose-50/60 border-2 border-rose-200/70 rounded-3xl p-7 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-2xl bg-rose-500 text-white flex items-center justify-center font-black text-xl">✕</div>
+                        <h4 class="text-lg font-black text-rose-950">Accessoires Félins Traditionnels</h4>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Fontaines en plastique retenant les bactéries et causant l acné du menton</span></li><li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Moteurs bruyants stressants qui repoussent le chat de s hydrater</span></li><li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Hamacs avec ventouses bon marché qui se décrochent sous le poids</span></li><li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Tunnels étroits et rigides vite délaissés par l animal</span></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne Bonne -->
+                <div class="bg-emerald-50/60 border-2 border-emerald-400 rounded-3xl p-7 shadow-lg shadow-emerald-500/5 relative overflow-hidden">
+                    <span class="absolute top-4 right-4 text-[10px] font-black uppercase tracking-wider bg-emerald-600 text-white px-3 py-1 rounded-full">
+                        Choix Gagnant
+                    </span>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-2xl bg-emerald-600 text-white flex items-center justify-center font-black text-xl">✓</div>
+                        <h4 class="text-lg font-black text-emerald-950">Notre Sélection FélinConfort (100% Bien-être)</h4>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Acier inoxydable 304 chirurgical ultra-hygiénique et sans odeur</span></li><li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Pompes ultra-silencieuses submersibles de moins de 20 dB apaisantes</span></li><li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Ventouses industrielles haute adhérence testées jusqu à 20 kg</span></li><li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Design 3 voies pliable offrant cachette, jeu et sieste prolongée</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature 5 : Section FAQ Anti-Objections -->
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center mb-10">
+            <span class="text-xs font-black px-3.5 py-1.5 rounded-full bg-slate-200 text-slate-800 uppercase tracking-wider">
+                Foire Aux Questions
+            </span>
+            <h3 class="text-2xl sm:text-3xl font-black text-gray-900 mt-3 tracking-tight">
+                Tout ce que vous devez savoir avant de commander
+            </h3>
+            <p class="text-xs text-gray-500 mt-1.5">
+                Des réponses transparentes pour un achat l esprit 100% tranquille.
+            </p>
+        </div>
+
+        <div class="space-y-3">
+            
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Les produits conviennent-ils aux chatons comme aux grands chats ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                Oui ! Tous les accessoires sélectionnés (fontaines, hamacs, lits apaisants) sont conçus pour s adapter aussi bien aux jeunes chatons qu aux grands chats (Maine Coon, Ragdoll, etc.) avec des capacités de charge renforcées.
+            </p>
+        </details>
+        
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Comment fonctionne la garantie de satisfaction ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                Grâce au partenariat Amazon Canada, vous disposez de 30 jours complets d essai. Si votre félin refuse d utiliser son accessoire, vous pouvez le retourner gratuitement et obtenir un remboursement intégral.
+            </p>
+        </details>
+        
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Combien de temps prend la livraison ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                La majorité de nos articles phares sont éligibles à la livraison Amazon Prime en 1 à 2 jours ouvrables partout au Canada.
+            </p>
+        </details>
+        
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Pourquoi privilégier les matériaux comme l inox ou le bois ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                La santé féline est notre priorité. L inox 304 évite la prolifération de germes responsables de l acné du menton chez le chat, tandis que nos tissus respirants garantissent un confort thermique optimal en toute saison.
+            </p>
+        </details>
+        
+        </div>
+    </section>
+
     <!-- Pied de Page & Mentions Légales Amazon -->
-    <footer class="bg-white border-t border-gray-200 mt-20 pt-12 pb-8">
+    <footer class="bg-white border-t border-gray-200 mt-auto pt-12 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div class="flex justify-center items-center gap-6 mb-6 text-sm text-gray-500 font-medium">
                 <a href="../chiens/index.html" class="hover:text-gray-900">CaninExpert (Chiens)</a>
@@ -889,13 +1357,13 @@
             </div>
 
             <!-- Divulgation d'Affiliation officielle Amazon -->
-            <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 max-w-3xl mx-auto text-xs text-gray-500 leading-relaxed mb-6">
-                <p class="font-semibold text-gray-700 mb-1">⚖️ Divulgation d'affiliation officielle :</p>
-                En tant que Partenaire Amazon, ce site réalise un bénéfice sur les achats remplissant les conditions requises. Amazon et le logo Amazon sont des marques commerciales d'Amazon.com, Inc. ou de ses affiliés. Les prix et disponibilités sont sujets à modification par le marchand.
+            <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 max-w-3xl mx-auto text-xs text-gray-500 leading-relaxed mb-6">
+                <p class="font-bold text-gray-700 mb-1">⚖️ Divulgation d affiliation officielle :</p>
+                En tant que Partenaire Amazon, ce site réalise un bénéfice sur les achats remplissant les conditions requises. Amazon et le logo Amazon sont des marques commerciales d Amazon.com, Inc. ou de ses affiliés. Les prix et disponibilités sont sujets à modification par le marchand.
             </div>
 
             <p class="text-xs text-gray-400">
-                © 2026 FélinConfort - Flotte Digitale Indépendante. Tous droits réservés.
+                © 2026 FélinConfort - Flotte Digitale Partenaire Amazon Canada. Tous droits réservés.
             </p>
         </div>
     </footer>
