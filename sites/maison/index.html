@@ -6,870 +6,1235 @@
     <title>MaisonPratique - Les Innovations & Gadgets Malins du Quotidien</title>
     <meta name="description" content="Des solutions ingénieuses pour simplifier, ranger et moderniser votre intérieur.">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
     </style>
 </head>
-<body class="bg-slate-50 text-gray-800 antialiased">
+<body class="bg-slate-50 text-gray-800 antialiased flex flex-col min-h-screen">
 
     <!-- Bandeau Réseau Flotte 3 Niches -->
-    <div class="bg-gray-900 text-gray-300 text-xs py-2 px-4 border-b border-gray-800">
+    <div class="bg-gray-900 text-gray-300 text-xs py-2.5 px-4 border-b border-gray-800">
         <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
             <div class="flex items-center gap-2">
                 <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>Flotte E-Commerce Active : 3 Rayons Spécialisés</span>
+                <span>Flotte E-Commerce Active : 3 Rayons Spécialisés Clé en Main</span>
             </div>
             <div class="flex items-center gap-4 font-medium">
                 <a href="../chiens/index.html" class="hover:text-amber-400 ">🐕 Rayon Chiens</a>
-                <span class="text-gray-600">|</span>
+                <span class="text-gray-700">|</span>
                 <a href="../chats/index.html" class="hover:text-indigo-400 ">🐱 Rayon Chats</a>
-                <span class="text-gray-600">|</span>
-                <a href="../maison/index.html" class="hover:text-emerald-400 text-emerald-400 font-bold underline">🏠 Rayon Maison</a>
+                <span class="text-gray-700">|</span>
+                <a href="../maison/index.html" class="hover:text-emerald-400 text-emerald-400 font-black underline">🏠 Rayon Maison</a>
             </div>
         </div>
     </div>
 
     <!-- En-tête de la Boutique -->
     <header class="bg-white border-b border-gray-100 shadow-sm sticky top-0 z-40">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex justify-between items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-xl shadow-md">
+                <div class="w-11 h-11 rounded-2xl bg-emerald-600 text-white flex items-center justify-center font-black text-2xl shadow-lg shadow-emerald-500/20">
                     🏠
                 </div>
                 <div>
-                    <h1 class="text-xl font-extrabold text-gray-900 leading-none">MaisonPratique</h1>
-                    <p class="text-xs text-gray-500 mt-1">Sélection Indépendante Certifiée</p>
+                    <h1 class="text-xl font-black text-gray-900 leading-none">MaisonPratique</h1>
+                    <p class="text-xs text-gray-500 mt-1 font-medium">Sélection Indépendante Partenaire Amazon</p>
                 </div>
             </div>
-            <div class="hidden md:flex items-center gap-6 text-sm font-semibold text-gray-600">
-                <span class="flex items-center gap-1"><span class="text-emerald-500">✓</span> Produits Testés</span>
-                <span class="flex items-center gap-1"><span class="text-emerald-500">✓</span> Avis Clients Vérifiés</span>
-                <span class="flex items-center gap-1"><span class="text-emerald-500">✓</span> Garantie Amazon</span>
+            <div class="hidden md:flex items-center gap-6 text-xs font-bold text-gray-600">
+                <span class="flex items-center gap-1.5"><span class="text-emerald-500 text-sm">✓</span> Produits Testés</span>
+                <span class="flex items-center gap-1.5"><span class="text-emerald-500 text-sm">✓</span> Avis Clients 4.5+</span>
+                <span class="flex items-center gap-1.5"><span class="text-emerald-500 text-sm">✓</span> Garantie Amazon 30j</span>
             </div>
         </div>
     </header>
 
     <!-- Hero Banner -->
-    <section class="bg-gradient-to-b from-emerald-50 to-slate-50 py-12 md:py-16 border-b border-gray-100">
+    <section class="bg-gradient-to-b from-emerald-50 via-emerald-50/60 to-slate-50 pt-12 pb-16 border-b border-gray-100">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <span class="inline-block px-4 py-1.5 rounded-full text-xs font-bold bg-white text-gray-800 shadow-sm border border-gray-200 mb-4">
-                🔥 Bestsellers & Recommandations 2026
+            <span class="inline-block px-4 py-1.5 rounded-full text-xs font-black bg-white text-gray-800 shadow-sm border border-gray-200 mb-4">
+                🔥 Bestsellers & Recommandations Officielles 2026
             </span>
-            <h2 class="text-3xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-4">
+            <h2 class="text-3xl sm:text-5xl font-black text-gray-900 tracking-tight mb-4 leading-tight">
                 MaisonPratique - Les Innovations & Gadgets Malins du Quotidien
             </h2>
-            <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
                 Des solutions ingénieuses pour simplifier, ranger et moderniser votre intérieur.
             </p>
         </div>
     </section>
 
-    <!-- Grille des Produits -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="flex justify-between items-center mb-8">
-            <div>
-                <h3 class="text-xl font-bold text-gray-900">Les Incontournables (15 pépites sélectionnées)</h3>
-                <p class="text-xs text-gray-500 mt-0.5">Mise à jour automatique par nos agents algorithmiques</p>
+    <!-- Feature 2 : Grand Bandeau de Réassurance 4 Piliers Amazon -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-12 relative z-20">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 bg-white rounded-3xl p-6 sm:p-7 shadow-xl shadow-gray-200/50 border border-gray-100">
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-600 flex items-center justify-center text-2xl font-black flex-shrink-0">⚡</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Livraison Prime 24h/48h</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">Expédié par Amazon Canada</p>
+                </div>
             </div>
-            <span class="text-xs bg-white border border-gray-200 px-3 py-1.5 rounded-lg text-gray-600 font-medium shadow-sm">
-                Trié par : Taux de satisfaction ⭐
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center text-2xl font-black flex-shrink-0">🛡️</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Satisfait ou Remboursé</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">30 jours de retours gratuits</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 text-indigo-600 flex items-center justify-center text-2xl font-black flex-shrink-0">🔒</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Paiement 100% Sécurisé</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">Chiffrement bancaire officiel</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3.5">
+                <div class="w-12 h-12 rounded-2xl bg-blue-500/10 text-blue-600 flex items-center justify-center text-2xl font-black flex-shrink-0">⭐</div>
+                <div>
+                    <h4 class="text-xs sm:text-sm font-black text-gray-900">Sélection Certifiée 4.5+</h4>
+                    <p class="text-[11px] text-gray-500 font-medium">Testée par des milliers d acheteurs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grille des Produits -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 flex-grow">
+        <div class="flex flex-wrap justify-between items-center gap-4 mb-8">
+            <div>
+                <h3 class="text-2xl font-black text-gray-900">Les Incontournables (15 pépites sélectionnées)</h3>
+                <p class="text-xs text-gray-500 mt-0.5">Mis à jour automatiquement avec stocks et avis en direct</p>
+            </div>
+            <span class="text-xs bg-white border border-gray-200 px-3.5 py-1.5 rounded-xl text-gray-700 font-bold shadow-sm flex items-center gap-1.5">
+                <span>Trié par :</span>
+                <span class="text-amber-600">Satisfaction Client 4.8★</span>
             </span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
         <!-- Produit home-01 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61MuErhykXL._SL1500_.jpg" alt="Prise Connectée Wi-Fi avec Suivi Précis de la Consommation Électrique" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Économie d'Énergie
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Domotique et Énergie
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Prise Connectée Wi-Fi avec Suivi Précis de la Consommation Électrique
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(16,500 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(16,500 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Réduisez vos factures d'électricité facilement en pilotant vos appareils énergivores à distance.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Réduisez vos factures d'électricité facilement en pilotant vos appareils énergivores à distance.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Mesure en direct la consommation en kWh de vos appareils sur smartphone</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Programmation d'horaires automatiques et arrêt des veilles inutiles</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Contrôle vocal compatible avec Alexa et Google Home sans hub</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Mesure en direct la consommation en kWh de vos appareils sur smartphone</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Programmation d'horaires automatiques et arrêt des veilles inutiles</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Contrôle vocal compatible avec Alexa et Google Home sans hub</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">24.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B08731J1L4?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-02 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61tMPTzyodL._AC_SL1500_.jpg" alt="Distributeur de Savon Automatique Mousse Infrarouge sans Contact" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Hygiène Sans Contact
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Hygiène et Salle de Bain
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Distributeur de Savon Automatique Mousse Infrarouge sans Contact
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(8,210 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(8,210 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Élimine les traces de doigts et les bactéries sur les flacons de cuisine et de salle de bain.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Élimine les traces de doigts et les bactéries sur les flacons de cuisine et de salle de bain.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Capteur infrarouge ultra-rapide déclenchant la mousse en 0.25 seconde</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Économise jusqu'à 50% de savon liquide grâce à la micro-mousse dense</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Batterie rechargeable par USB-C avec autonomie de 3 mois par charge</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Capteur infrarouge ultra-rapide déclenchant la mousse en 0.25 seconde</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Économise jusqu'à 50% de savon liquide grâce à la micro-mousse dense</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Batterie rechargeable par USB-C avec autonomie de 3 mois par charge</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">29.50 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B09TQLC5TK?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-03 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/919MrbsxWXL._AC_SL1500_.jpg" alt="Organisateur de Placard & Épices Rotatif 360° Lazy Susan Double Étage" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Gain de Place Magique
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Cuisine et Rangement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Organisateur de Placard & Épices Rotatif 360° Lazy Susan Double Étage
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.9/5</span>
-                    <span class="text-xs text-gray-400">(11,300 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.9/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(11,300 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Accédez en 1 seconde aux pots cachés au fond de vos placards de cuisine sans rien faire tomber.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Accédez en 1 seconde aux pots cachés au fond de vos placards de cuisine sans rien faire tomber.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Rotation fluide à 360° sur roulements à billes en acier inoxydable</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Plateaux antidérapants avec rebords hauts pour éviter les chutes de flacons</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Hauteur centrale réglable pour s'adapter à tous les formats de placards</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Rotation fluide à 360° sur roulements à billes en acier inoxydable</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Plateaux antidérapants avec rebords hauts pour éviter les chutes de flacons</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Hauteur centrale réglable pour s'adapter à tous les formats de placards</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">27.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B00K8MK384?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-04 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/5107mEFWL+L._AC_SL1500_.jpg" alt="Veilleuse Murale LED Magnétique sans Fil avec Détecteur de Mouvement" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Sécurité Nocturne
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Éclairage Intelligent
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Veilleuse Murale LED Magnétique sans Fil avec Détecteur de Mouvement
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(9,450 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(9,450 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Plus besoin de chercher les interrupteurs dans le noir la nuit pour aller boire un verre d'eau.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Plus besoin de chercher les interrupteurs dans le noir la nuit pour aller boire un verre d'eau.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Allumage automatique à l'approche (détection 3 mètres à 120°)</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Base magnétique adhésive 3M : s'accroche et se décroche comme une torche</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Lumière chaude anti-éblouissement parfaite pour les couloirs et escaliers</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Allumage automatique à l'approche (détection 3 mètres à 120°)</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Base magnétique adhésive 3M : s'accroche et se décroche comme une torche</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Lumière chaude anti-éblouissement parfaite pour les couloirs et escaliers</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">21.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0BPWL6QRP?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-05 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71zGAOxgVCL._AC_SL1500_.jpg" alt="Mini-Scelleuse Thermique Portable Rechargeable pour Sachets d'Aliments" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Anti-Gaspillage
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Cuisine et Conservation
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Mini-Scelleuse Thermique Portable Rechargeable pour Sachets d'Aliments
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.6/5</span>
-                    <span class="text-xs text-gray-400">(7,120 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.6/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(7,120 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Conserve le croustillant de vos aliments et évite le gaspillage alimentaire sans pinces encombrantes.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Conserve le croustillant de vos aliments et évite le gaspillage alimentaire sans pinces encombrantes.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Ressoude hermétiquement les paquets de chips, biscuits et surgelés en 3s</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Lame cutter intégrée pour ouvrir proprement les emballages</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Dos magnétique pour la ranger directement sur la porte du frigo</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Ressoude hermétiquement les paquets de chips, biscuits et surgelés en 3s</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Lame cutter intégrée pour ouvrir proprement les emballages</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Dos magnétique pour la ranger directement sur la porte du frigo</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">15.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0GSR5J5TL?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-06 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71kMYr-Q8qL._AC_SL1500_.jpg" alt="Brosse de Nettoyage Électrique Rotative sans Fil avec 8 Têtes Interchangeables" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Ménage sans Effort
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Nettoyage et Entretien
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Brosse de Nettoyage Électrique Rotative sans Fil avec 8 Têtes Interchangeables
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(14,800 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(14,800 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Dites adieu aux maux de dos et aux genoux douloureux lors du nettoyage de la salle de bain et des sols.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Dites adieu aux maux de dos et aux genoux douloureux lors du nettoyage de la salle de bain et des sols.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Moteur puissant à deux vitesses récurant le calcaire et les joints sans frotter</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Manche télescopique extensible jusqu'à 135 cm pour nettoyer baignoires et plafonds sans se baisser</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Batterie lithium haute capacité avec 90 minutes d'autonomie continue</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Moteur puissant à deux vitesses récurant le calcaire et les joints sans frotter</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Manche télescopique extensible jusqu'à 135 cm pour nettoyer baignoires et plafonds sans se baisser</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Batterie lithium haute capacité avec 90 minutes d'autonomie continue</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">49.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0GYDQ5X99?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-07 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/717AFfD0R9L._AC_SL1500_.jpg" alt="Défroisseur Vapeur Vertical Compact de Voyage Prêt en 25 Secondes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Zéro Pli Express
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Entretien du Linge
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Défroisseur Vapeur Vertical Compact de Voyage Prêt en 25 Secondes
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(12,300 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(12,300 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Une tenue impeccable et sans faux plis en moins de 2 minutes avant de partir le matin.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Une tenue impeccable et sans faux plis en moins de 2 minutes avant de partir le matin.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Chauffe ultra-rapide en 25 secondes avec débit vapeur continu puissant</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Défroisse directement sur cintre sans sortir de table à repasser</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Format compact pliable idéal pour les voyages et retouches de dernière minute</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Chauffe ultra-rapide en 25 secondes avec débit vapeur continu puissant</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Défroisse directement sur cintre sans sortir de table à repasser</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Format compact pliable idéal pour les voyages et retouches de dernière minute</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">36.50 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0CWPQYB6Y?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-08 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71ibWiDlw3L._AC_SL1500_.jpg" alt="Tapis de Bain Diatomite Naturelle Ultra-Absorbant Séchage Instantané" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Pieds Secs Immédiats
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Hygiène et Salle de Bain
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Tapis de Bain Diatomite Naturelle Ultra-Absorbant Séchage Instantané
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(10,900 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(10,900 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Fini les tapis de bain en tissu détrempés et odorants qui mettent des heures à sécher.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Fini les tapis de bain en tissu détrempés et odorants qui mettent des heures à sécher.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Absorbe l'eau sous les pieds en quelques secondes grâce à la pierre de diatomée</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Sèche complètement à l'air libre en quelques minutes sans moisissures</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Sous-couche en caoutchouc antidérapante pour une sécurité maximale</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Absorbe l'eau sous les pieds en quelques secondes grâce à la pierre de diatomée</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Sèche complètement à l'air libre en quelques minutes sans moisissures</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Sous-couche en caoutchouc antidérapante pour une sécurité maximale</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">23.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0D9VXGS3M?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-09 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71mB7so5WnL._AC_SL1500_.jpg" alt="Distributeur d'Huile d'Olive en Spray Brume Fine en Verre et Inox" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Cuisine Saine
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Cuisine et Rangement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Distributeur d'Huile d'Olive en Spray Brume Fine en Verre et Inox
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(8,700 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(8,700 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Le secret pour cuisiner léger, croustillant et économique au quotidien.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Le secret pour cuisiner léger, croustillant et économique au quotidien.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Pulvérise une brume uniforme idéale pour salades, barbecues et friteuses sans huile (Air Fryer)</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Permet de diviser par 4 la quantité d'huile utilisée sans sacrifier le goût</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Bouteille en verre épais sans BPA avec échelle graduée</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Pulvérise une brume uniforme idéale pour salades, barbecues et friteuses sans huile (Air Fryer)</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Permet de diviser par 4 la quantité d'huile utilisée sans sacrifier le goût</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Bouteille en verre épais sans BPA avec échelle graduée</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">16.50 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0C9ZQ434J?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-10 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/51G-1pQw7lL._AC_SL1500_.jpg" alt="Station de Charge sans Fil Pliable 3-en-1 pour Téléphone, Montre & Écouteurs" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Table de Nuit Épurée
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Domotique et Énergie
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Station de Charge sans Fil Pliable 3-en-1 pour Téléphone, Montre & Écouteurs
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(13,400 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(13,400 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Rechargez tous vos appareils essentiels en un seul endroit propre et sans fil.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Rechargez tous vos appareils essentiels en un seul endroit propre et sans fil.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Recharge simultanément votre smartphone, montre connectée et écouteurs sans fil</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Élimine 3 câbles encombrants sur la table de chevet ou le bureau</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Conception pliable ultra-mince se glissant dans n'importe quel sac de voyage</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Recharge simultanément votre smartphone, montre connectée et écouteurs sans fil</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Élimine 3 câbles encombrants sur la table de chevet ou le bureau</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Conception pliable ultra-mince se glissant dans n'importe quel sac de voyage</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">34.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0CFJBL65W?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-11 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71wRbSN8ZVL._AC_SL1500_.jpg" alt="Organisateur de Câbles Magnétique avec Clips Adhésifs pour Bureau" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Bureau Propre
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Cuisine et Rangement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Organisateur de Câbles Magnétique avec Clips Adhésifs pour Bureau
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(6,400 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(6,400 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Terminez l'agacement de devoir ramasser le chargeur qui glisse au sol 10 fois par jour.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Terminez l'agacement de devoir ramasser le chargeur qui glisse au sol 10 fois par jour.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Maintient tous vos câbles de charge à portée de main sans tomber derrière le meuble</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Clips magnétiques compatibles avec câbles ronds, plats et tressés</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Adhésif 3M résistant qui ne laisse aucun résidu sur le bois ou le verre</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Maintient tous vos câbles de charge à portée de main sans tomber derrière le meuble</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Clips magnétiques compatibles avec câbles ronds, plats et tressés</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Adhésif 3M résistant qui ne laisse aucun résidu sur le bois ou le verre</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">14.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B0BPLRX32S?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-12 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/71+jZ0qpYcL._AC_SL1500_.jpg" alt="Égouttoir à Vaisselle Enroulable en Acier Inoxydable au-dessus de l'Évier" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Gain de Place Évier
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Cuisine et Rangement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Égouttoir à Vaisselle Enroulable en Acier Inoxydable au-dessus de l'Évier
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.9/5</span>
-                    <span class="text-xs text-gray-400">(21,500 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.9/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(21,500 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Libérez instantanément votre plan de travail des égouttoirs en plastique encombrants.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Libérez instantanément votre plan de travail des égouttoirs en plastique encombrants.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Se déroule au-dessus de l'évier pour sécher vaisselle, fruits et légumes</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Résistant à la chaleur jusqu'à 240°C pour servir de dessous-de-plat géant</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> S'enroule en 2 secondes pour se ranger facilement dans un tiroir</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Se déroule au-dessus de l'évier pour sécher vaisselle, fruits et légumes</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Résistant à la chaleur jusqu'à 240°C pour servir de dessous-de-plat géant</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> S'enroule en 2 secondes pour se ranger facilement dans un tiroir</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">19.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B09GLTT1KZ?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-13 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/81wrFO5choL._AC_SL1500_.jpg" alt="Bacs Organisateurs Transparents pour Réfrigérateur et Placard avec Poignée (Lot de 4)" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Frigo Impeccable
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Cuisine et Rangement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Bacs Organisateurs Transparents pour Réfrigérateur et Placard avec Poignée (Lot de 4)
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(17,900 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(17,900 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Fini les yaourts et sauces perdus au fond du frigo qui périment dans l'oubli.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Fini les yaourts et sauces perdus au fond du frigo qui périment dans l'oubli.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Plastique transparent incassable sans BPA pour voir le contenu en un coup d'œil</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Poignées intégrées facilitant la prise en main et le glissement sur les étagères</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Optimise l'espace et garde le frigo propre et impeccablement ordonné</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Plastique transparent incassable sans BPA pour voir le contenu en un coup d'œil</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Poignées intégrées facilitant la prise en main et le glissement sur les étagères</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Optimise l'espace et garde le frigo propre et impeccablement ordonné</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">28.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B003EV7CFI?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-14 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61OM9xzDbbL._AC_SL1500_.jpg" alt="Barre Lumineuse LED sous Meuble Ultra-Mince Rechargeable USB avec Détecteur" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Cuisine Moderne
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Éclairage Intelligent
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Barre Lumineuse LED sous Meuble Ultra-Mince Rechargeable USB avec Détecteur
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.7/5</span>
-                    <span class="text-xs text-gray-400">(8,900 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.7/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(8,900 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    Transformez l'ambiance et la visibilité de votre cuisine en 2 minutes sans percer aucun trou.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">Transformez l'ambiance et la visibilité de votre cuisine en 2 minutes sans percer aucun trou.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Éclaire parfaitement votre plan de travail de cuisine sans aucun fil visible</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Détecteur de mouvement automatique ou mode allumé permanent réglable</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Fixation magnétique instantanée sur bande adhésive métallique fournie</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Éclaire parfaitement votre plan de travail de cuisine sans aucun fil visible</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Détecteur de mouvement automatique ou mode allumé permanent réglable</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Fixation magnétique instantanée sur bande adhésive métallique fournie</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">22.50 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B07RT2PQVN?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
         
         <!-- Produit home-15 -->
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
+        <div class="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col group">
             <!-- Vraie Photo Produit HD -->
-            <div class="relative h-60 w-full bg-slate-100 overflow-hidden">
+            <div class="relative h-64 w-full bg-slate-100 overflow-hidden">
                 <img src="https://m.media-amazon.com/images/I/61I+Vv2--DL._AC_SL1500_.jpg" alt="Ouvre-Boîte Électrique Automatique One-Touch sans Bords Coupants" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out" loading="lazy" />
-                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60"></div>
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 shadow-sm">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-70"></div>
+                <span class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 shadow-sm tracking-wide">
                     Facilité Totale
                 </span>
-                <span class="absolute top-3 right-3 px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-white/90 backdrop-blur text-gray-800 shadow-sm">
+                <span class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-white/95 backdrop-blur text-gray-800 shadow-sm">
                     Cuisine et Rangement
                 </span>
             </div>
 
             <div class="p-6 flex-1 flex flex-col">
-                <h3 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors mb-2 line-clamp-2">
+                <h3 class="text-lg font-black text-gray-900 group-hover:text-emerald-600 transition-colors mb-2.5 leading-snug line-clamp-2">
                     Ouvre-Boîte Électrique Automatique One-Touch sans Bords Coupants
                 </h3>
 
-                <div class="flex items-center gap-2 mb-3">
-                    <div class="flex text-yellow-400 text-sm">
+                <!-- Note et Avis Vérifiés -->
+                <div class="flex items-center gap-2 mb-3.5">
+                    <div class="flex text-amber-400 text-sm">
                         ★★★★☆
                     </div>
-                    <span class="text-xs font-bold text-gray-700">4.8/5</span>
-                    <span class="text-xs text-gray-400">(14,100 avis)</span>
+                    <span class="text-xs font-black text-gray-800">4.8/5</span>
+                    <span class="text-xs text-gray-400 font-medium">(14,100 avis vérifiés)</span>
                 </div>
 
-                <p class="text-sm text-gray-600 mb-4 line-clamp-3">
-                    La fin définitive des boîtes de conserve difficiles à ouvrir et des risques de coupure aux doigts.
-                </p>
+                <!-- Feature 1 : Vente par le Problème / Émotion -->
+                <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-3.5 mb-4 text-xs text-slate-800 flex items-start gap-2.5">
+                    <span class="text-base flex-shrink-0">🎯</span>
+                    <div>
+                        <span class="font-extrabold text-gray-900 block mb-0.5">Le problème résolu :</span>
+                        <span class="text-gray-600 leading-relaxed">La fin définitive des boîtes de conserve difficiles à ouvrir et des risques de coupure aux doigts.</span>
+                    </div>
+                </div>
 
-                <ul class="mb-6 flex-1">
-                    <li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Ouvre n'importe quelle boîte de conserve d'un simple appui sur le bouton</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Coupe le long du couvercle sans laisser de bords tranchants dangereux</li><li class="flex items-center text-sm text-gray-600 mb-1.5"><span class="text-emerald-500 font-bold mr-2">✓</span> Idéal pour les personnes souffrant d'arthrite ou de faiblesse dans les mains</li>
+                <!-- Points Forts -->
+                <ul class="mb-5 flex-1 space-y-1">
+                    <li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Ouvre n'importe quelle boîte de conserve d'un simple appui sur le bouton</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Coupe le long du couvercle sans laisser de bords tranchants dangereux</li><li class="flex items-center text-sm text-gray-700 mb-1.5"><span class="text-emerald-500 font-bold mr-2 text-base">✓</span> Idéal pour les personnes souffrant d'arthrite ou de faiblesse dans les mains</li>
                 </ul>
 
+                <!-- Feature 2 : Réassurance Amazon & Call-to-Action -->
                 <div class="border-t border-gray-100 pt-4 mt-auto">
                     <div class="flex justify-between items-baseline mb-3">
                         <div>
-                            <span class="text-xs text-gray-400">Prix indicatif</span>
+                            <span class="text-[11px] text-gray-400 font-medium">Prix estimé sur Amazon</span>
                             <div class="text-2xl font-black text-gray-900">25.99 $ <span class="text-xs text-gray-500 font-normal">CAD</span></div>
                         </div>
-                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md">En stock</span>
+                        <span class="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200/60 px-2.5 py-1 rounded-lg flex items-center gap-1">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            En Stock
+                        </span>
+                    </div>
+
+                    <!-- Mini Badges Amazon Réassurance sur la fiche -->
+                    <div class="grid grid-cols-2 gap-1.5 text-[11px] font-semibold text-slate-700 mb-3 bg-slate-50 p-2.5 rounded-xl border border-slate-200/60">
+                        <div class="flex items-center gap-1.5"><span class="text-amber-500 font-extrabold">⚡ Prime</span> 24h-48h</div>
+                        <div class="flex items-center gap-1.5"><span class="text-emerald-600 font-bold">✓</span> Retours 30j</div>
+                        <div class="flex items-center gap-1.5"><span class="text-indigo-600 font-bold">🔒</span> Paiement Sécurisé</div>
+                        <div class="flex items-center gap-1.5"><span class="text-blue-600 font-bold">⭐</span> Choix Clients</div>
                     </div>
 
                     <a href="https://www.amazon.ca/dp/B002OOVC84?tag=smartdealsbh-20" target="_blank" rel="nofollow noopener" 
-                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow-md transition-all duration-200 transform active:scale-95">
-                        🛒 Voir l'offre sur Amazon &rarr;
+                       class="block w-full text-center bg-gray-900 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-4 rounded-2xl shadow-lg shadow-gray-900/10 hover:shadow-emerald-500/20 transition-all duration-200 transform active:scale-95 text-sm flex items-center justify-center gap-2">
+                        <span>🛒 Commander sur Amazon Canada</span>
+                        <span class="text-xs">➔</span>
                     </a>
-                    <p class="text-[11px] text-gray-400 text-center mt-1.5">Livraison rapide disponible</p>
+                    <p class="text-[11px] text-gray-400 text-center mt-2 flex items-center justify-center gap-1">
+                        <span>Expédié & Garanti par Amazon Canada</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -877,8 +1242,111 @@
         </div>
     </main>
 
+    <!-- Feature 4 : Section Comparatif "Produits Ordinaires vs Notre Sélection" -->
+    <section class="bg-gradient-to-b from-white to-slate-100/70 border-t border-b border-gray-200/80 py-16">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-xs font-black px-3.5 py-1.5 rounded-full bg-emerald-500/10 text-emerald-600 border border-emerald-500/20 uppercase tracking-wider">
+                    Pourquoi faire confiance à notre sélection ?
+                </span>
+                <h3 class="text-3xl font-black text-gray-900 mt-4 tracking-tight">
+                    La Différence entre un Produit Ordinaire et un Bestseller Certifié
+                </h3>
+                <p class="text-sm text-gray-600 mt-2">
+                    Nous éliminons les gadgets fragiles pour ne retenir que ce qui fonctionne durablement.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Colonne Mauvaise -->
+                <div class="bg-rose-50/60 border-2 border-rose-200/70 rounded-3xl p-7 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-2xl bg-rose-500 text-white flex items-center justify-center font-black text-xl">✕</div>
+                        <h4 class="text-lg font-black text-rose-950">Gadgets Maison Bas de Gamme</h4>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Moteurs faiblards qui ralentissent dès qu on appuie pour récurer</span></li><li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Pompes automatiques non étanches qui tombent en panne après un mois</span></li><li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Aucune pièce de rechange et retour impossible en cas de défaillance</span></li><li class="flex items-start gap-2.5 text-sm text-rose-900 mb-2.5"><span class="text-rose-500 font-black flex-shrink-0">✕</span> <span>Matériaux poreux sensibles à la rouille et aux moisissures</span></li>
+                    </ul>
+                </div>
+
+                <!-- Colonne Bonne -->
+                <div class="bg-emerald-50/60 border-2 border-emerald-400 rounded-3xl p-7 shadow-lg shadow-emerald-500/5 relative overflow-hidden">
+                    <span class="absolute top-4 right-4 text-[10px] font-black uppercase tracking-wider bg-emerald-600 text-white px-3 py-1 rounded-full">
+                        Choix Gagnant
+                    </span>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-2xl bg-emerald-600 text-white flex items-center justify-center font-black text-xl">✓</div>
+                        <h4 class="text-lg font-black text-emerald-950">Notre Sélection MaisonPratique (Haute Durabilité)</h4>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Brosses centrifuges puissantes avec étanchéité IPX7 pour récurer sans effort</span></li><li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Capteurs infrarouges haute précision et coques étanches anti-corrosion</span></li><li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Garantie totale Amazon de 30 jours : remboursement immédiat en 1 clic</span></li><li class="flex items-start gap-2.5 text-sm text-emerald-950 mb-2.5"><span class="text-emerald-600 font-black flex-shrink-0">✓</span> <span class="font-medium">Acier inox et composants premium testés pour plusieurs années d usage</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature 5 : Section FAQ Anti-Objections -->
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center mb-10">
+            <span class="text-xs font-black px-3.5 py-1.5 rounded-full bg-slate-200 text-slate-800 uppercase tracking-wider">
+                Foire Aux Questions
+            </span>
+            <h3 class="text-2xl sm:text-3xl font-black text-gray-900 mt-3 tracking-tight">
+                Tout ce que vous devez savoir avant de commander
+            </h3>
+            <p class="text-xs text-gray-500 mt-1.5">
+                Des réponses transparentes pour un achat l esprit 100% tranquille.
+            </p>
+        </div>
+
+        <div class="space-y-3">
+            
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Comment suis-je livré par Amazon Canada ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                Dès que vous validez votre panier sur Amazon, la logistique locale prend le relais pour expédier votre colis sous 24 à 48 heures ouvrées via le réseau Amazon Logistics.
+            </p>
+        </details>
+        
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Les appareils électriques sont-ils garantis ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                Oui, chaque appareil bénéficie de la garantie constructeur ainsi que de la protection acheteur Amazon de 30 jours (échange ou remboursement sans frais).
+            </p>
+        </details>
+        
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Ces produits nécessitent-ils des installations compliquées ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                Non, notre sélection MaisonPratique privilégie les solutions prêtes à l emploi, sans perçage lourd et fournies avec leurs fixations et câbles USB le cas échéant.
+            </p>
+        </details>
+        
+        <details class="group bg-white rounded-2xl p-5 border border-gray-200/80 shadow-sm cursor-pointer mb-3.5 transition-all hover:border-gray-300">
+            <summary class="font-extrabold text-gray-900 flex justify-between items-center list-none text-base select-none">
+                <span>Mes coordonnées sont-elles protégées ?</span>
+                <span class="text-gray-400 group-open:rotate-180 transition-transform duration-200 text-xl font-light">▾</span>
+            </summary>
+            <p class="mt-3.5 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                Toutes les transactions s effectuent exclusivement sous le protocole de sécurité SSL officiel d Amazon Canada.
+            </p>
+        </details>
+        
+        </div>
+    </section>
+
     <!-- Pied de Page & Mentions Légales Amazon -->
-    <footer class="bg-white border-t border-gray-200 mt-20 pt-12 pb-8">
+    <footer class="bg-white border-t border-gray-200 mt-auto pt-12 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <div class="flex justify-center items-center gap-6 mb-6 text-sm text-gray-500 font-medium">
                 <a href="../chiens/index.html" class="hover:text-gray-900">CaninExpert (Chiens)</a>
@@ -889,13 +1357,13 @@
             </div>
 
             <!-- Divulgation d'Affiliation officielle Amazon -->
-            <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 max-w-3xl mx-auto text-xs text-gray-500 leading-relaxed mb-6">
-                <p class="font-semibold text-gray-700 mb-1">⚖️ Divulgation d'affiliation officielle :</p>
-                En tant que Partenaire Amazon, ce site réalise un bénéfice sur les achats remplissant les conditions requises. Amazon et le logo Amazon sont des marques commerciales d'Amazon.com, Inc. ou de ses affiliés. Les prix et disponibilités sont sujets à modification par le marchand.
+            <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 max-w-3xl mx-auto text-xs text-gray-500 leading-relaxed mb-6">
+                <p class="font-bold text-gray-700 mb-1">⚖️ Divulgation d affiliation officielle :</p>
+                En tant que Partenaire Amazon, ce site réalise un bénéfice sur les achats remplissant les conditions requises. Amazon et le logo Amazon sont des marques commerciales d Amazon.com, Inc. ou de ses affiliés. Les prix et disponibilités sont sujets à modification par le marchand.
             </div>
 
             <p class="text-xs text-gray-400">
-                © 2026 MaisonPratique - Flotte Digitale Indépendante. Tous droits réservés.
+                © 2026 MaisonPratique - Flotte Digitale Partenaire Amazon Canada. Tous droits réservés.
             </p>
         </div>
     </footer>
